@@ -34,7 +34,7 @@ function Calculator() {
     setAnswer("");
   };
 
-  // check brackets are balanced or not
+  // brackets
   const checkBracketBalanced = (expr) => {
     let stack = [];
     for (let i = 0; i < expr.length; i++) {

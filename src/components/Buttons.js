@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/Buttons.css";
-// import CALCULATOR_BUTTONS from "./CalculatorButtons";
+
 
 const Buttons = ({ inputHandler, clearInput, backspace, changePlusMinus, calculateAns }) => {
   document.addEventListener("keydown", function (event) {
@@ -31,7 +31,7 @@ const Buttons = ({ inputHandler, clearInput, backspace, changePlusMinus, calcula
         AC
       </button>
       <button className="btn clr" onClick={backspace}>
-        ⌫
+        CLR
       </button>
       <button className="btn exp" onClick={inputHandler}>
         log
